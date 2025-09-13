@@ -1,0 +1,7 @@
+GET http://localhost:5148/usuarios
+
+###
+
+POST http://localhost:5148/usuarios?nome=Emerson
+
+
