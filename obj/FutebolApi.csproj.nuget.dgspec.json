@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/emerson-oliveira/FutebolApi/FutebolApi.csproj": {}
+    "/home/emerson-oliveira/Documentos/Projeto-FutebolApi/FutebolApi.csproj": {}
   },
   "projects": {
-    "/home/emerson-oliveira/FutebolApi/FutebolApi.csproj": {
+    "/home/emerson-oliveira/Documentos/Projeto-FutebolApi/FutebolApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/emerson-oliveira/FutebolApi/FutebolApi.csproj",
+        "projectUniqueName": "/home/emerson-oliveira/Documentos/Projeto-FutebolApi/FutebolApi.csproj",
         "projectName": "FutebolApi",
-        "projectPath": "/home/emerson-oliveira/FutebolApi/FutebolApi.csproj",
+        "projectPath": "/home/emerson-oliveira/Documentos/Projeto-FutebolApi/FutebolApi.csproj",
         "packagesPath": "/home/emerson-oliveira/.nuget/packages/",
-        "outputPath": "/home/emerson-oliveira/FutebolApi/obj/",
+        "outputPath": "/home/emerson-oliveira/Documentos/Projeto-FutebolApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/emerson-oliveira/.nuget/NuGet/NuGet.Config"

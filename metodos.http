@@ -1,4 +1,8 @@
-GET http://localhost:5148/usuarios
+GET http://localhost:5148/times 
+
+###
+
+GET http://localhost:5148/times/4
 
 ###
 

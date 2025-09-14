@@ -7,7 +7,18 @@ builder.Services.AddDbContext<AppDbContext>(Options => Options.UseSqlite("Data S
 
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
+//GET All 
+app.MapGet("/times", async (AppDbContext db) =>
+{
+    return await db.Times.ToListAsync();
+});
+
+//GET por id
+app.MapGet("/times/{id}", async (int id, AppDbContext db) =>
+{
+    var time = await db.Times.FindAsync(id);
+    return time is not null ? Results.Ok(time) : Results.NotFound("Time não encontrado");
+});
 
 app.Run();
 
