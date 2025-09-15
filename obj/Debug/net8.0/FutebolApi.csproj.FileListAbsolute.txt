@@ -124,3 +124,8 @@
 /home/emerson-oliveira/Documentos/Projeto-FutebolApi/obj/Debug/net8.0/FutebolApi.pdb
 /home/emerson-oliveira/Documentos/Projeto-FutebolApi/obj/Debug/net8.0/FutebolApi.genruntimeconfig.cache
 /home/emerson-oliveira/Documentos/Projeto-FutebolApi/obj/Debug/net8.0/ref/FutebolApi.dll
+/home/emerson-oliveira/Documentos/Projeto-FutebolApi/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/home/emerson-oliveira/Documentos/Projeto-FutebolApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/emerson-oliveira/Documentos/Projeto-FutebolApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/emerson-oliveira/Documentos/Projeto-FutebolApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/emerson-oliveira/Documentos/Projeto-FutebolApi/obj/Debug/net8.0/FutebolApi.MvcApplicationPartsAssemblyInfo.cs
