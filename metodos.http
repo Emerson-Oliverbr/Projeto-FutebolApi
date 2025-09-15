@@ -16,4 +16,16 @@ Content-Type:  application/json
     "TitulosMundiais": 10
 }
 
+###
+
+PUT http://localhost:5148/times/3
+Content-Type:  application/json 
+
+{
+    "nome": "São Paulo",
+    "cidade": "São Paulo",
+    "TitulosBrasileiros": 6,
+    "TitulosMundiais": 3
+}
+
 
