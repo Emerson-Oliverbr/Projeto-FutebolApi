@@ -20,5 +20,12 @@ app.MapGet("/times/{id}", async (int id, AppDbContext db) =>
     return time is not null ? Results.Ok(time) : Results.NotFound("Time não encontrado");
 });
 
+app.MapPost("/times", async (AppDbContext db, Time novoTime) =>
+{
+    db.Times.Add(novoTime);
+    await db.SaveChangesAsync();
+    return Results.Created($"O time {novoTime.Nome} foi adicionado com sucesso!", novoTime);
+});
+
 app.Run();
 

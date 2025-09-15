@@ -6,6 +6,14 @@ GET http://localhost:5148/times/4
 
 ###
 
-POST http://localhost:5148/usuarios?nome=Emerson
+POST http://localhost:5148/times/
+Content-Type:  application/json 
+
+{
+    "nome": "Real Madrid",
+    "cidade": "Madrid",
+    "TitulosBrasileiros": 0,
+    "TitulosMundiais": 10
+}
 
 
