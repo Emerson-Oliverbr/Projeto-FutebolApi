@@ -27,7 +27,7 @@ app.MapPost("/times", async (AppDbContext db, Time novoTime) =>
     return Results.Created($"O time {novoTime.Nome} foi adicionado com sucesso!", novoTime);
 });
 
-app.MapPut("/times/{id}", async(int id, AppDbContext db, Time timeAtualizado) =>
+app.MapPut("/times/{id}", async (int id, AppDbContext db, Time timeAtualizado) =>
 {
     var time = await db.Times.FindAsync(id);
     if (time is null) return Results.NotFound("Time não encontrado!");
@@ -40,6 +40,17 @@ app.MapPut("/times/{id}", async(int id, AppDbContext db, Time timeAtualizado) =>
     await db.SaveChangesAsync();
     return Results.Ok(time);
 });
+
+app.MapDelete("/times/{id}", async (int id, AppDbContext db) =>
+{
+    var time = await db.Times.FindAsync(id);
+    if (time is null) return Results.NotFound("Time não encontrado!");
+
+    db.Times.Remove(time);
+
+    await db.SaveChangesAsync();
+    return Results.NoContent();
+ });
 
 app.Run();
 

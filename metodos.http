@@ -28,4 +28,11 @@ Content-Type:  application/json
     "TitulosMundiais": 3
 }
 
+###
+
+DELETE http://localhost:5148/times/4
+
+
+
+
 
